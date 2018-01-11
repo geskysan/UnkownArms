@@ -1,0 +1,57 @@
+﻿  titleback.cpp
+  player.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\player.cpp(112): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\player.cpp(113): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\player.cpp(119): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\player.cpp(120): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  block.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\block.cpp(129): warning C4101: 'matDef': ローカル変数は 1 度も使われていません。
+  コードを生成中...
+c:\users\s-jobi605\desktop\制作\unkownarms\block.cpp(260): warning C4715: 'GetBlock': 値を返さないコントロール パスがあります。
+  コンパイル中...
+  wall.cpp
+  title.cpp
+  shadow.cpp
+  map.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\map.cpp(71): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\map.cpp(49): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\map.cpp(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: 'fscanf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\map.cpp(43): warning C4101: 'line': ローカル変数は 1 度も使われていません。
+  main.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\main.cpp(53): warning C4838: 'float' から 'LONG' への変換には縮小変換が必要です
+c:\users\s-jobi605\desktop\制作\unkownarms\main.cpp(53): warning C4244: '初期化中': 'float' から 'LONG' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\main.cpp(212): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+c:\users\s-jobi605\desktop\制作\unkownarms\main.cpp(213): warning C4244: '=': 'float' から 'UINT' への変換です。データが失われる可能性があります。
+  light.cpp
+  gamemain.cpp
+  field.cpp
+  fade.cpp
+  debugproc.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(89): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(94): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(108): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(117): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 'strcat' の宣言を確認してください
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(130): warning C4838: 'float' から 'LONG' への変換には縮小変換が必要です
+c:\users\s-jobi605\desktop\制作\unkownarms\debugproc.cpp(130): warning C4244: '初期化中': 'float' から 'LONG' への変換です。データが失われる可能性があります。
+  collision.cpp
+  camera.cpp
+  blocktop.cpp
+c:\users\s-jobi605\desktop\制作\unkownarms\blocktop.cpp(108): warning C4101: 'matDef': ローカル変数は 1 度も使われていません。
+  Input.cpp
+  コードを生成中...
+c:\users\s-jobi605\desktop\制作\unkownarms\blocktop.cpp(217): warning C4715: 'GetBlockTop': 値を返さないコントロール パスがあります。
+  UnKownArms.vcxproj -> C:\Users\S-JoBi605\Desktop\制作\UnKownArms\Debug\UnKownArms.exe

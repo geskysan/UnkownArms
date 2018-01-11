@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{c4fbe180-260d-418a-9dc9-0ac95efb3e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugproc">
+      <UniqueIdentifier>{6eb4026c-03b6-414f-b960-ed25ba7432fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fade">
+      <UniqueIdentifier>{c4a874ae-b10c-4eb8-aafe-6df701585fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{78b2ae46-e227-4d2a-958b-1d869393041f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{3b3c44c0-225c-4cbc-be86-51a5f61e62ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4b5fce8f-7f47-43ec-a03e-c51ff6bdaf32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mode">
+      <UniqueIdentifier>{10120990-2655-49e6-9829-9c1d18a1c598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン">
+      <UniqueIdentifier>{96642d24-c98b-4a35-8801-c86b128b9980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\タイトル">
+      <UniqueIdentifier>{b4993ee7-4539-45f1-89e1-a90bef8f94ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\タイトル\titleback">
+      <UniqueIdentifier>{c04e7e08-1100-4d24-992b-7b89b83aa1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\タイトル\title">
+      <UniqueIdentifier>{4fddd522-bf16-4b46-bf88-5a6aa80bd173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン">
+      <UniqueIdentifier>{54140d16-dbba-4658-8290-75ed63614381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\gamemain">
+      <UniqueIdentifier>{034df2ef-6b66-4c4e-8d34-74f079dbee67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\player">
+      <UniqueIdentifier>{e6b7edc2-713a-4128-848d-ecc909e2360e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\shadow">
+      <UniqueIdentifier>{992bc6a9-1552-434e-ac96-c253f626b7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\Map">
+      <UniqueIdentifier>{0e0a9fb9-ddeb-4d39-96e5-fa38fb32bde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\Map\wall">
+      <UniqueIdentifier>{db346417-0959-448b-987a-91f2263266c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\Map\field">
+      <UniqueIdentifier>{d49fbade-0611-4821-a131-f26fa3e02434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\Map\map">
+      <UniqueIdentifier>{1186c8c3-0f08-4571-a939-b5b1378802f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="シーン\ゲームメイン\Map\Block">
+      <UniqueIdentifier>{8752227b-cd26-44fa-b9c1-900d2c58d295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{08f1dbc6-94f1-44dd-af6f-da984598d2ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>debugproc</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>fade</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>シーン\ゲームメイン\Map\field</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemain.cpp">
+      <Filter>シーン\ゲームメイン\gamemain</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>mode</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>シーン\ゲームメイン\shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>シーン\タイトル\title</Filter>
+    </ClCompile>
+    <ClCompile Include="titleback.cpp">
+      <Filter>シーン\タイトル\titleback</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>シーン\ゲームメイン\player</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>シーン\ゲームメイン\Map\wall</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>シーン\ゲームメイン\Map\map</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>シーン\ゲームメイン\Map\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="blocktop.cpp">
+      <Filter>シーン\ゲームメイン\Map\Block</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>debugproc</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>fade</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>シーン\ゲームメイン\Map\field</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemain.h">
+      <Filter>シーン\ゲームメイン\gamemain</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>mode</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>シーン\ゲームメイン\shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>シーン\タイトル\title</Filter>
+    </ClInclude>
+    <ClInclude Include="titleback.h">
+      <Filter>シーン\タイトル\titleback</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>シーン\ゲームメイン\player</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>シーン\ゲームメイン\Map\wall</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>シーン\ゲームメイン\Map\map</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>シーン\ゲームメイン\Map\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="blocktop.h">
+      <Filter>シーン\ゲームメイン\Map\Block</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
